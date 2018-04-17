@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 import requests
 res=requests.get("https://www.baidu.com/")
 savefile=open("baidu.html","wb+")
